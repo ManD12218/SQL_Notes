@@ -1,0 +1,138 @@
+ 1–10: Basic SELECT Queries
+
+Select all columns from DimCustomer.
+Retrieve the top 10 rows from FactInternetSales.
+Select distinct product names from DimProduct.
+Get the first name and last name of all employees from DimEmployee.
+Find all customers from the United States.
+List all products with a color of 'Red'.
+Show all sales territories.
+Display all promotions with their start and end dates.
+Select all columns from DimDate where the year is 2022.
+Retrieve all records from DimGeography.
+
+
+🔹 11–20: JOIN Operations
+
+Join FactInternetSales with DimCustomer to get customer names and sales amount.
+Join FactResellerSales with DimReseller to get reseller names and sales.
+Combine DimProduct and DimProductSubcategory to get product and subcategory names.
+Join FactInternetSales with DimDate to get sales by order date.
+Join FactInternetSales, DimCustomer, and DimGeography to get customer location-wise sales.
+Join DimEmployee with DimDepartmentGroup.
+Join FactInternetSales with DimPromotion to analyze promotion impact.
+Join DimProduct with DimProductCategory via subcategory.
+Join FactInternetSales with DimSalesTerritory.
+Join FactInternetSales with DimCurrency.
+
+
+🔹 21–30: Aggregations and GROUP BY
+
+Total sales amount from FactInternetSales.
+Average unit price by product.
+Total sales by year.
+Count of customers by country.
+Total quantity sold by product category.
+Total sales by promotion.
+Average discount by product.
+Total reseller sales by region.
+Number of orders per customer.
+Total internet sales by month.
+
+
+🔹 31–40: Filtering with WHERE
+
+Sales greater than $1000.
+Customers from 'California'.
+Products with a list price over $500.
+Orders placed in 2022.
+Promotions active in 2021.
+Employees hired after 2015.
+Products with no color specified.
+Sales with a discount greater than 10%.
+Customers with email addresses ending in '.com'.
+Orders shipped to 'Germany'.
+
+
+🔹 41–50: Sorting and LIMIT
+
+Top 5 products by sales.
+Top 10 customers by total purchase.
+Products sorted by list price descending.
+Employees sorted by hire date.
+Promotions sorted by start date.
+Top 3 sales territories by revenue.
+Products sorted by name alphabetically.
+Customers sorted by last name.
+Orders sorted by order date.
+Top 5 resellers by sales.
+
+
+🔹 51–60: Subqueries
+
+Customers who made purchases over $5000.
+Products that were never sold.
+Employees who report to a specific manager.
+Customers from the top 3 sales territories.
+Products with above-average list price.
+Orders with the highest quantity.
+Promotions with no associated sales.
+Customers who bought more than 5 products.
+Products sold in 2022 but not in 2021.
+Resellers with sales above the average.
+
+
+🔹 61–70: Common Table Expressions (CTEs)
+
+Use a CTE to get top 5 products by sales.
+CTE to calculate monthly sales totals.
+CTE to find customers with multiple orders.
+CTE to rank products by revenue.
+CTE to get year-over-year sales growth.
+CTE to find employees with more than 5 years of service.
+CTE to calculate average sales per customer.
+CTE to find top-performing sales territories.
+CTE to list products with increasing sales trend.
+CTE to summarize sales by promotion.
+
+
+🔹 71–80: Window Functions
+
+Rank products by total sales.
+Calculate running total of sales by date.
+Find the first order date for each customer.
+Calculate average sales per customer using window functions.
+Use ROW_NUMBER() to find duplicate customers.
+Use LEAD() to compare sales month-over-month.
+Use LAG() to find previous month's sales.
+Use NTILE() to divide customers into quartiles by sales.
+Use RANK() to find top 3 products per category.
+Use DENSE_RANK() to rank employees by hire date.
+
+
+🔹 81–90: Date and Time Functions
+
+Extract year from OrderDate.
+Get month name from OrderDate.
+Calculate age of employees.
+Find orders placed on weekends.
+Count orders per quarter.
+Find sales in the last 30 days.
+Get first and last day of each month.
+Calculate days between order and ship date.
+Filter orders placed in the last year.
+Group sales by fiscal year.
+
+
+🔹 91–100: Business Intelligence Scenarios
+
+Analyze sales trend over time.
+Identify top 10 customers by lifetime value.
+Compare online vs reseller sales.
+Analyze promotion effectiveness.
+Segment customers by geography.
+Identify underperforming products.
+Forecast sales using historical data.
+Create a sales dashboard using SQL views.
+Build a customer retention report.
+Generate a product performance summary.
